@@ -2,8 +2,8 @@
 <head>	<title>Universal (or *) Selector</title>
 	<style>
 		*{
-			color: purple; 
-			background-color:mistyrose;
+			color: purple;
+			background-color:red;
 		}
 	</style>
 </head>
