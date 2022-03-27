@@ -4,10 +4,6 @@
 		h2, li{
 			color: darkred;
 		}
-		div{
-			text-indent: 3em;
-			font-size: 15pt;
-		}
 		.class1{
 			background-color: gold;
 		}

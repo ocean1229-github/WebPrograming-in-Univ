@@ -25,10 +25,6 @@
 	#siteAds{
 		grid-area: ads;
 	}
-	header, footer, article, nav, div{
-		padding: 20px;
-		background: gold;
-	}
 </style>
 <body style="text-align:center">
 	<header id="pageHeader">Header</header>

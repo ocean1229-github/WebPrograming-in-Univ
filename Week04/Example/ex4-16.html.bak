@@ -40,6 +40,6 @@
 			<p>Welcome to Web Programming.</p>
 		</div>   <!-- //content -->
 	</div> 	<!-- //container -->
-	<div style="color:white; background:darkblue">(footer)&copy;copy
+	<div>(footer)&copy;copy
 	</div> 	<!-- //footer -->
 </div> <!-- //frame -->
