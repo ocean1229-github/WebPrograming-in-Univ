@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>div tag</title>
+    <style text="text/css">
+		#section01{
+			border: dotted;
+			text-align: center;
+		}
+		#section02{
+			color: blue;
+		}
+    </style>
+  </head>
+  <body>
+    <div id="section01">
+      <h1>Section 1</h1>
+      <p>This is a paragraph in Section 1.</p>
+    </div>
+    <div id="section02">
+      <h1>Section 2</h1>
+      <p>This is a paragraph in Section 2.</p>
+    </div>
+  </body>
+</html>

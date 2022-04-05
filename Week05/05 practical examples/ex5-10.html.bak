@@ -1,0 +1,14 @@
+<html>
+<head> <title>display block property</title>
+    <style>
+
+      </style>
+</head>
+<body>
+    <h2>Lava Characters</h2>
+    <div>
+      <span>| Yellow   </span> <span>|  Red   </span>
+      <span>|  Pink   </span>   <span>|  Brown </span>
+    </div>
+</body>
+</html>
