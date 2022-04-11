@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Exercise 6-1</title>
+  <style>
+  .all{
+	width: 500px;
+  }
+
+  .header{
+	/* vertical-align: middle; */
+	border: 1px solid gray;
+	vertical-align: middle;
+  }
+
+  .header_h1{
+	color: #01339b;
+  }
+
+  img{
+	width: 115px;
+	height: 70px;
+	float: left;
+	margin: 5px;
+	margin-right: 15px;
+  }
+
+  .main{
+  display: flex;
+  border: 1px solid gray;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  }
+
+  .leftnav{
+	background: #cfcfff;
+	float: left;
+	width: 110px;
+	height: 90px;
+	margin: 10px;
+	padding: 10px;
+	font-size: 12pt;
+	margin-right: 25px;
+}
+
+.leftnav_link:link{
+	color: navy;
+	text-decoration: none;
+}
+.leftnav_link:hover{
+	color: red;
+}
+.leftnav_text{
+	width: 400px;
+}
+
+.footer{
+	font-style: italic;
+	font-size: small;
+	text-align: right;
+	border: 1px solid gray;
+}
+	
+  </style>
+ </head>
+ <body>
+  <div class="all">
+	<div class="header">
+		<div class="header_img">
+			<img src="header_img.jpg"/>
+		</div>
+		<div class="header_h1">
+			<h1>My Home Page</h1>
+		</div>
+	</div>
+	<div class="main">
+		<div class="leftnav">
+			<a class="leftnav_link" href="#">Home</a>
+			<a class="leftnav_link" href="#">Education</a> 
+			<a class="leftnav_link" href="#">Services</a>
+			<a class="leftnav_link" href="#">Publication</a>
+		</div>
+		<div class="leftnav_text">
+				<h2>My Favorite Sites:</h2>
+			<ul>
+				<li><a href="#" class="link">SWDM home page</a></li>
+				<li><a href="#" class="link">Naver</a></li>
+				<li><a href="#" class="link">Movie Database</a></li>
+				<li><a href="#" class="link">W3 Schools</a></li>
+			</ul>
+				<h2>Helpful Resources:</h2>
+			<ul>
+				<li><a href="#" class="link">HTML Reference</a></li>
+				<li><a href="#" class="link">CSS Reference</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer">
+		<p>Last Modified on Sept.29,2021.</p>
+		<p>Managed by me</p>
+	</div>
+  </div>
+ </body>
+</html>
