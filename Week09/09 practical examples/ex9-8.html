@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Creating and loading JavaScript files</title>
+    <script>
+		function over(obj){obj.src="media/banana.png";}
+		function out(obj){obj.src="media/apple.png";}
+    </script>
+  </head>
+  <body>
+    <h3>mouse over the image</h3>
+    <hr>
+    <img src="media/apple.png" alt="image" onmouseover="over(this)" onmouseout="out(this)">
+  </body>
+</html>
