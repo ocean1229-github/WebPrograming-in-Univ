@@ -8,7 +8,7 @@
   <form>
 	Favorite language
 	<select name="Language">
-		<option value="c">
+		<option value="c">C
 		<option value="c++">C++
 		<option value="java">Java
 		<option value="php">PHP
