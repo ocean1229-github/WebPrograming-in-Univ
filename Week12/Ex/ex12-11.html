@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>ex12-11</title>
+ </head>
+ <body>
+	<script>
+		var now = new Date(), then = new Date();
+		document.write(now + "<br>");
+		then.setDate(now.getDate() + 2);
+		then.setHours(now.getHours() + 13);
+		then.setMinutes(now.getMinutes() + 24);
+		document.write(then);
+	</script>
+ </body>
+</html>

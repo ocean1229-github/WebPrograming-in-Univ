@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Exercise3</title>
+ </head>
+ <body>
+	<script>
+		var str = "Objects combine data with actions to create to a new data type!";
+		document.write("Objects combine data with actions to create to a new data type! Length is " + str.length);
+		var array = str.split(" ");
+		document.write("<br><br>Array = " + array);
+
+		array.pop();
+		array.pop();
+		array.push("class!");
+		document.write("<br><br>Array Pop & Push Result = " + array);
+
+		var arrayStr = array.join("+");
+		document.write("<br><br>Array join Result = " + arrayStr);
+	</script>
+ </body>
+</html>

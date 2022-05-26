@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Exercise2</title>
+ </head>
+ <body>
+	<script>
+		var arrayA = [1, 2, 3, 5, 8, 13, 21 , 34, 55, 89];
+		for(var a in arrayA){
+		document.write(arrayA[a] + " ");
+		if(a == 4){
+			break;
+			}
+		}
+		document.write("<br>" + "You have exited the loop" + "<br>");
+
+		var arrayA = [1, 2, 3, 5, 8, 13, 21 , 34, 55, 89];
+		for(var i = 0; i<arrayA.length; i++){
+		if(i == 2 || i == 3 || i ==5){
+			continue;	
+		arrayA[i] + "<br />";
+		}
+		document.write(arrayA[i] + " ");
+		}
+		document.write("<br>" + "You have exited the loop");
+	</script>
+ </body>
+</html>

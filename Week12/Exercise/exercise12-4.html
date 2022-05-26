@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Exercise4</title>
+ </head>
+ <body>
+	<script>
+		var now = new Date();
+		document.write("Current Date = " + now.toString());
+
+	    var then = new Date();
+		then.setDate(now.getDate() + 5);
+	    then.setDate(now.getHours() + 3);
+		then.setDate(now.getMinutes() + 25);
+	    document.write("<br>then = " + then.toString());
+
+		then.setDate(then.getHours() + 26);
+		then.setDate(then.getMinutes() + 78);
+	    document.write("<br>then = " + then.toString());
+
+		if (then.getDay() == 1)
+			document.write("<br>Weekday = Monday");
+		else if (then.getDay() == 2)
+			document.write("<br>Weekday = Tuesday");
+		else if (then.getDay() == 3)
+			document.write("<br>Weekday = Wednesday");
+		else if (then.getDay() == 4)
+			document.write("<br>Weekday = Tuesday");
+		else if (then.getDay() == 5)
+			document.write("<br>Weekday = Friday");
+		else if (then.getDay() == 6)
+			document.write("<br>Weekday = Saturday");
+		else if (then.getDay() == 7)
+			document.write("<br>Weekday = Sunday");
+    
+		var maximum = Math.max(1.2, 2.3, 3.4, 4.5, 5.6);
+		var minimum = Math.min(1.2, 2.3, 3.4, 4.5, 5.6);
+		document.write("<br><br>Max = " + maximum + "<br>Min = " + minimum);
+
+		document.write("<br>Round 1.2 = " + Math.round(1.2));
+		document.write("<br>Round 2.3 = " + Math.round(2.3));
+		document.write("<br>Round 3.4 = " + Math.round(3.4));
+		document.write("<br>Round 4.5 = " + Math.round(4.5));
+		document.write("<br>Round 5.6 = " + Math.round(5.6));
+
+	</script>
+ </body>
+</html>

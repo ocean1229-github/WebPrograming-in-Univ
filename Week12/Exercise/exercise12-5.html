@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Exercise5</title>
+ </head>
+ <body>
+	<script>
+	 var myWindow = null;
+
+	 function win_open() {
+	 if (myWindow == null)
+			myWindow = window.open("http://www.naver.com/");
+		}
+	 function win_close() {
+			myWindow.close();
+		}
+	</script>
+	<input type="button" value="Open Window" onclick="win_open()">
+	<input type="button" value="Close Window" onclick="win_close()">
+ </body>
+</html>

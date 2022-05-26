@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>ex12-8</title>
+ </head>
+ <body>
+	<script>
+		var fruits = ["Orange", "Apple", "Mango"];
+		document.write(fruits + "<br>");
+		document.write(fruits.join() + "<br>");
+		document.write(fruits.join("+") + "<br>");
+		document.write(fruits.join("and") + "<br>");
+		fruits.sort();
+		document.write(fruits + "<br>");
+		document.write("<br>");
+    
+		var points = [40, 100, 1, 5, 25, 10];
+		points.sort();
+		document.write(points + "<br>");
+		points.sort(function(a, b) {return a - b;})
+		document.write(points + "<br>");
+		points.sort(function(a, b) {return b - a;})
+		document.write(points + "<br>");
+	</script>
+ </body>
+</html>
